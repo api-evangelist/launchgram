@@ -1,19 +1,66 @@
 aid: launchgram
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/launchgram.png
 name: LaunchGram
-description: LaunchGram is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LaunchGram entered the API Evangelist network from the 500 Global (500
+  Startups) portfolio listing at 500.co/portfolio, which remains the only
+  sourced record of the company. A July 2026 enrichment probe found no live
+  company presence behind the name: launchgram.com no longer serves a company
+  site but a Spaceship domain-marketplace parking page offering the domain
+  itself for sale (listed at $2,588 outright, or lease-to-own), the domain
+  publishes no MX records, and none of the conventional developer subdomains
+  (api, docs, developer, developers, app, status) resolve. No developer portal,
+  documentation, API reference, OpenAPI or other machine-readable definition,
+  SDK, or package-registry client library could be found, and requests to the
+  /.well-known/ discovery paths return no response at all. This profile is
+  retained in the API Evangelist network as an identity record for a defunct 500
+  Global portfolio lead; there is no API surface to enrich, and no artifacts
+  have been generated for it.
 url: https://raw.githubusercontent.com/api-evangelist/launchgram/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-detail: >-
+  launchgram.com resolves to a Spaceship domain-marketplace parking page listing
+  the domain for sale; no MX records, no developer subdomains, and no HTTP
+  response on /.well-known/ discovery paths. Probed 2026-07-19 by the enrichment
+  pipeline.
+x-enrichment:
+  last_probed: '2026-07-19'
+  result: no-api-surface
+  evidence:
+  - 'https://launchgram.com/ -> 200, Spaceship domain-for-sale parking page (og:title
+    "Buy launchgram.com | Spaceship")'
+  - launchgram.com MX -> none
+  - api/docs/developer/developers/app/status.launchgram.com -> NXDOMAIN
+  - /.well-known/security.txt, /.well-known/openid-configuration, /.well-known/oauth-authorization-server,
+    /.well-known/api-catalog, /.well-known/ai-plugin.json, /llms.txt, /openapi.json
+    -> empty reply from server
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Startups
+- Venture Backed
+- Portfolio
+- Defunct
+- Domain Parked
 apis: []
 maintainers:
 - FN: Kin Lane
