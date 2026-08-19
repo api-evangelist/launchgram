@@ -51,7 +51,7 @@ x-enrichment:
   - /.well-known/security.txt, /.well-known/openid-configuration, /.well-known/oauth-authorization-server,
     /.well-known/api-catalog, /.well-known/ai-plugin.json, /llms.txt, /openapi.json
     -> empty reply from server
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
