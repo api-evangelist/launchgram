@@ -64,10 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LaunchGram entered the API Evangelist network from the 500 Global (500 Startups) portfolio listing at 500.co/portfolio, which remains the only sourced record of the company.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: defunct — no API surface.** A July 2026 enrichment probe found no live company presence. `launchgram.com` now serves a Spaceship domain-marketplace parking page offering the domain itself for sale, the domain publishes no MX records, and none of the conventional developer subdomains (`api`, `docs`, `developer`, `developers`, `app`, `status`) resolve. No developer portal, documentation, API reference, OpenAPI definition, SDK, or package-registry client library could be found, and the `/.well-known/` discovery paths return no response.
+LaunchGram entered the API Evangelist network from the 500 Global (500 Startups) portfolio listing at 500.co/portfolio, which remains the only sourced record of the company. A July 2026 enrichment probe found no live company presence behind the name: launchgram.com no longer serves a company site but a Spaceship domain-marketplace parking page offering the domain itself for sale (listed at $2,588 outright, or lease-to-own), the domain publishes no MX records, and none of the conventional developer subdomains (api, docs, developer, developers, app, status) resolve. No developer portal, documentation, API reference, OpenAPI or other machine-readable definition, SDK, or package-registry client library could be found, and requests to the /.well-known/ discovery paths return no response at all. This profile is retained in the API Evangelist network as an identity record for a defunct 500 Global portfolio lead; there is no API surface to enrich, and no artifacts have been generated for it.
 
-This repository is retained as an identity record for a defunct portfolio lead. There is nothing to enrich, so no artifacts have been generated.
+**Areas:** Company · Startups · Portfolio · Defunct · Domain Parked
 
-Backed by: 500-global — https://launchgram.com
+## LaunchGram on APIs.io (historical record)
+
+Everything profiled for LaunchGram is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/launchgram/](https://apis.io/providers/launchgram/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://launchgram.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LaunchGram: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/launchgram/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
